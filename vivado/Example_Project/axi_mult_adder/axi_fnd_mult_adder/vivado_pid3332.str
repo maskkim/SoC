@@ -1,0 +1,133 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 3332
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Dec 12 17:41:31 KST 2024
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	D:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	SOGANG
+User home directory: C:/Users/SOGANG
+User working directory: C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2022.1
+RDI_DATADIR: D:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/SOGANG/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/SOGANG/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/SOGANG/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	D:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/vivado.log
+Vivado journal file: 	C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/vivado.jou
+Engine tmp dir: 	C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/.Xil/Vivado-3332-DESKTOP-8DBAGAH
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2022.1
+XILINX_SDK: D:/Xilinx/Vitis/2022.1
+XILINX_VITIS: D:/Xilinx/Vitis/2022.1
+XILINX_VIVADO: D:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,451 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 76 MB (+77157kb) [00:00:09]
+// [Engine Memory]: 1,451 MB (+1370270kb) [00:00:09]
+// Opening Vivado Project: C:\template2\template\vivado\Example_Project\axi_mult_adder\axi_fnd_mult_adder\axi_fnd_mult_adder.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,451 MB. GUI used memory: 60 MB. Current time: 12/12/24, 5:41:32 PM KST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1204 ms.
+// Tcl Message: open_project C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+13997kb) [00:00:30]
+// [GUI Memory]: 116 MB (+19563kb) [00:00:34]
+// WARNING: HEventQueue.dispatchEvent() is taking  2238 ms.
+// [GUI Memory]: 127 MB (+5227kb) [00:00:36]
+// [GUI Memory]: 135 MB (+994kb) [00:00:36]
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 1622.492 ; gain = 0.000 
+// Project name: axi_fnd_mult_adder; location: C:/template2/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder; part: xczu3eg-sbva484-1-e
+dismissDialog("Open Project"); // bA
+// WARNING: HEventQueue.dispatchEvent() is taking  1559 ms.
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a

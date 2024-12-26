@@ -1,0 +1,243 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov 28 14:35:16 2024
+# Process ID: 130266
+# Current directory: /mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/design_1_axi_lite_template_top_0_0_synth_1
+# Command line: vivado -log design_1_axi_lite_template_top_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_lite_template_top_0_0.tcl
+# Log file: /mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/design_1_axi_lite_template_top_0_0_synth_1/design_1_axi_lite_template_top_0_0.vds
+# Journal file: /mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/design_1_axi_lite_template_top_0_0_synth_1/vivado.jou
+# Running On: linux, OS: Linux, CPU Frequency: 2137.107 MHz, CPU Physical cores: 24, Host memory: 134986 MB
+#-----------------------------------------------------------
+Sourcing tcl script '/home/kgs/.Xilinx/Vivado/Vivado_init.tcl'
+478 Beta devices matching pattern found, 0 enabled.
+source design_1_axi_lite_template_top_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/hdd1/tools/xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top design_1_axi_lite_template_top_0_0 -part xczu3eg-sbva484-1-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 130343
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/mnt/hdd1/tools/xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3312.180 ; gain = 160.828 ; free physical = 102862 ; free virtual = 129128
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_lite_template_top_0_0' [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.gen/sources_1/bd/design_1/ip/design_1_axi_lite_template_top_0_0/synth/design_1_axi_lite_template_top_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_lite_template_top' [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/imports/template_IP/top_axi_lite_template.v:13]
+INFO: [Synth 8-6157] synthesizing module 's_axi_lite_template' [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/imports/template_IP/s_axi_lite_module.v:3]
+INFO: [Synth 8-226] default block is never used [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/imports/template_IP/s_axi_lite_module.v:372]
+INFO: [Synth 8-6155] done synthesizing module 's_axi_lite_template' (0#1) [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/imports/template_IP/s_axi_lite_module.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'axi_lite_template_top' (0#1) [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/imports/template_IP/top_axi_lite_template.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_lite_template_top_0_0' (0#1) [/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.gen/sources_1/bd/design_1/ip/design_1_axi_lite_template_top_0_0/synth/design_1_axi_lite_template_top_0_0.v:53]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module s_axi_lite_template is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3389.086 ; gain = 237.734 ; free physical = 103565 ; free virtual = 129831
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3406.898 ; gain = 255.547 ; free physical = 103565 ; free virtual = 129831
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3406.898 ; gain = 255.547 ; free physical = 103565 ; free virtual = 129831
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3406.898 ; gain = 0.000 ; free physical = 103573 ; free virtual = 129839
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3550.836 ; gain = 0.000 ; free physical = 103581 ; free virtual = 129847
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3574.648 ; gain = 23.812 ; free physical = 103581 ; free virtual = 129847
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3574.648 ; gain = 423.297 ; free physical = 103619 ; free virtual = 129885
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3574.648 ; gain = 423.297 ; free physical = 103619 ; free virtual = 129885
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3574.648 ; gain = 423.297 ; free physical = 103619 ; free virtual = 129885
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3574.648 ; gain = 423.297 ; free physical = 103619 ; free virtual = 129886
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 35    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 17    
+	  16 Input   32 Bit        Muxes := 16    
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module s_axi_lite_template is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module s_axi_lite_template is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3574.648 ; gain = 423.297 ; free physical = 103632 ; free virtual = 129900
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3877.086 ; gain = 725.734 ; free physical = 103215 ; free virtual = 129487
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3878.086 ; gain = 726.734 ; free physical = 103215 ; free virtual = 129487
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 3897.117 ; gain = 745.766 ; free physical = 103194 ; free virtual = 129466
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     1|
+|3     |LUT3  |     3|
+|4     |LUT4  |     6|
+|5     |LUT6  |   354|
+|6     |MUXF7 |   128|
+|7     |MUXF8 |    64|
+|8     |FDRE  |  1083|
+|9     |FDSE  |     1|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.023 ; gain = 754.672 ; free physical = 103230 ; free virtual = 129500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 3906.023 ; gain = 586.922 ; free physical = 103269 ; free virtual = 129539
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 3906.031 ; gain = 754.672 ; free physical = 103269 ; free virtual = 129539
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3917.992 ; gain = 0.000 ; free physical = 103354 ; free virtual = 129624
+INFO: [Netlist 29-17] Analyzing 192 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_1_axi_lite_template_top_0_0' is not ideal for floorplanning, since the cellview 's_axi_lite_template' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3932.867 ; gain = 0.000 ; free physical = 103295 ; free virtual = 129565
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: d8e2becb
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 3932.867 ; gain = 789.516 ; free physical = 103436 ; free virtual = 129705
+INFO: [Common 17-1381] The checkpoint '/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/design_1_axi_lite_template_top_0_0_synth_1/design_1_axi_lite_template_top_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_lite_template_top_0_0, cache-ID = 93fc6615285a13dd
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint '/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/design_1_axi_lite_template_top_0_0_synth_1/design_1_axi_lite_template_top_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_lite_template_top_0_0_utilization_synth.rpt -pb design_1_axi_lite_template_top_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 28 14:35:58 2024...

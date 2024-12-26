@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev6/template/vitis"/>
+	<item key="scw_hwspec_file_selection" value="C:\template2\template\vivado\Example_Project\axi_mult_adder\axi_fnd_mult_adder"/>
+	<item key="debug_files_selection" value="C:\template2\template\vivado\Example_Project\axi_mult_adder\axi_fnd_mult_adder"/>
+</section>
